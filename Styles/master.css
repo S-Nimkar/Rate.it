@@ -1,0 +1,100 @@
+
+.back-colour{
+    background-color: #e3f2fd;
+}
+.base-colour{
+    background-color: #2196f3;
+}
+.darker-colour{
+    background-color: #1976d2;
+}
+.darkest-colour{
+    background-color: #1565c0;
+}
+.lighter-colour{
+    background-color: #42a5f5;
+}
+.lightest-colour{
+    background-color: #90caf9;
+}
+.center-viewport{
+     position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%); 
+}
+.translate-center{
+    transform: translate(50%, 10%) 
+}
+.button-center{
+        top: 25px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
+}
+.no-margin{
+    margin: 0px 0px 0px 0px;
+}
+.main{
+    min-height: 80px;
+}
+.user-login{
+    width: 50%;
+}
+.card-title{
+    font-family: Remachine;
+}
+.page-footer{
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+.full-width{
+    width: 100%;
+}
+.homepage-logo{
+    padding-left: 15px;
+}
+.register-page-footer{
+    position: relative;
+}
+.register-link{
+    height: 170px;
+    position: relative;
+}
+.comment-margin{
+    margin-bottom: 0px;
+}
+
+footer.page-footer{
+    background-color: #90caf9;
+}
+p.no-margin{
+    margin: 0px 0px 0px 0px;
+}
+@media only screen and (max-width: 502px) {
+    .translate-center{
+        transform: translate(0%);
+    }
+    .user-login{
+        width: 100%;
+    }
+    .page-footer{
+        position: relative;
+    }
+    .mobile-error{
+        position: inherit;
+    }
+    .register-link{
+    height: 85px;
+    }
+}
+@font-face {
+    font-family: "Remachine";
+    src: url(font/RemachineScript_Personal_Use.ttf) format("truetype");
+}
+a.logo-title { 
+    font-family: "Remachine";
+    font-size: 4rem;
+}

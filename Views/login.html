@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" type="text/css" href="../Styles/Minified-Styles/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="../Styles/master.css" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class ="back-colour">
+    <header>
+<nav>
+  <div class="nav-wrapper base-colour">
+    <a href="homepage.php" class="logo-title center-viewport">Rate</a>
+  </div>
+</nav>
+    </header>
+    <main>
+        <div class="container">
+          <div class="user-login translate-center">
+          <form name="test" onsubmit="return logincheck()" action="../Database/login.php" method='POST'>
+            <div class="card medium ">
+                <div class="card-content card-title base-colour white-text">
+                  <span class="card-title center" style="font-size: 4rem;">Login</span>
+                </div>
+                <div class="card-content full-width">
+                  <p>Username</p>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="user_name" name="user_name" type="text" class="validate" >
+                    </div>
+                  </div>
+                  <p>Password</p>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="pass_word" name="pass_word" type="password" class="validate">
+                    </div>
+                  </div>
+                  <div class="card-action lightest-colour" style="padding-top: 10px;">
+                    <button class="waves-effect waves-light btn-large button-center blue" type="submit">Login</button>
+                  </div>
+                </div>
+            </div>
+            </form>
+        </div>
+        </div>
+        <div class="container register-link"><a href="register.html" class="logo-title center-viewport">Register here!...</a></div>
+
+    </main>
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l8 s12">
+                <h5 class="white-text">Hear what real students are really saying...</h5>
+                <p class="grey-text text-lighten-4">Student reviews accross our websites are all created by real life students.</p>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+                &copy University of Sussex
+                <p class="right no-margin " style="">
+                Sumedh Nimkar
+                </p>
+            </div>
+    </footer>
+    <script type="text/javascript" src="../Scripts/Minified-Scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../Scripts/Minified-Scripts/materialize.min.js"></script>
+    <script type="text/javascript" src="../Scripts/login.js"></script>
+</body>
+</html>
